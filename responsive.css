@@ -75,6 +75,43 @@
         font-size: 14px;
         width: 100%;
     }
+
+    #merch1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .container {
+        width: 100vw !important;
+        background-color: #FFCC25;
+        flex-direction: row;
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+    .card {
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 180px;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: calc(100%/3) !important;
+        border-radius: 0;
+        box-shadow: none;
+        border: none;
+    }
+    .icon {
+        display: none !important;
+    }
+    /* .card p {
+        display: none !important;
+    }
+    .card h4 {
+        display: none !important;
+    }
+    .card {
+        display: none !important;
+    } */
     /* About */
     #about {
         margin-top: 200px;
@@ -478,10 +515,10 @@
         box-shadow: none;
         border: none;
     }
-    /* .icon {
+    .icon {
         display: none !important;
     }
-    .card p {
+    /* .card p {
         display: none !important;
     }
     .card h4 {
